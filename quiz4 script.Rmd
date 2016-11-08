@@ -1,0 +1,47 @@
+---
+title: "Quiz 4"
+author: "Parco Sin"
+date: "November 8, 2016"
+output: word_document
+---
+
+```{r,comment=NA, echo=FALSE,message=FALSE, warning=FALSE}
+# load libraries
+library(tidyverse)
+library(pwr)
+```
+# a) Hypotheses 
+
+For the following questions, the strength of the relations between variables will be labelled as weak, medium, and strong according to Bosco et al. (2015).
+
+
+Hypotheses 1: We expect to find a strong correlation (from the redings Bosco et al. 2015) between self-esteem and academic performance, such that academic performance increases as self-esteem increases. We expect this to be relatively consistent with the meta-analysis (r=.50)
+
+
+Hypotheses 2: We expect to find a weak negative relation between self-esteem and quality of dating relationship, such that quality of dating relationship decreases as self esteem increases. We expect this to be relatively consistent with the single published study (r=-.30, N=100).
+
+
+Hypotheses 3: We expect to find a weak positive relation between self-esteem and quality of friendship, such that the quality of friendship increases as self-esteem increases.
+
+
+# b) Analysis Plan A
+
+Hypothesis 1: We will conduct a bivariate correlation to test this hypothesis. A power analysis (power=.80) reveals that we will need a sample size of *N* = 29 to reliabily replicate the relation between self-esteem and academic performance (r=.50). 
+
+
+Hypothesis 2: We will conduct a bivariate correlation to test this hypothesis. A power analysis (r=-.30, power=.80) reveals that we will need a sample size of *n* = 84. We will need to do a safeguard analysis for this by calculating the lower bound interval for r=-.30, n=100, which turns out to be r=-.11. 
+
+
+Hypothesis 3: We will conduct a bivariate correlation to test this hypothesis. A power analysis, assuming a weak effect size (r=.07, from the readings Bosco et al. (2015) reveals that we will need a sample size of *n* = 1599. 
+
+We will nedd to take the highest *n* reported in our analyses to conduct our study *n*=1599. 
+
+# c)  Analysis Plan B
+
+Hypothesis 1: Considering the the confidence interval of our hypotheses (r=.50), the lower bound interval would be r=.16. Therefore, the sample we would need calculated from a power analysis would be *n* = 600. 
+
+Hypothesis 2: Considering the confidence interval of our hypotheses, a safeguard power analysis (using the lower bound value) reveals that we will need a sample size of *n* = 1200 (r=-.11).
+
+Hypothesis 3: We cannot consider the width of the confidence interval for a population correlation. 
+
+
